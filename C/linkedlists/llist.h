@@ -15,7 +15,7 @@ typedef struct LinkedList {
 
 LinkedList *List_create();
 int List_size(LinkedList *list);
-void List_insertAtHead(LinkedList *list);
+void List_insertAtHead(LinkedList *list, void *item);
 int List_empty(LinkedList *list);
 
 #endif
